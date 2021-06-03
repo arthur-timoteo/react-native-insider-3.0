@@ -22,7 +22,7 @@ export default function MyLinks(){
                 data={[{id:1, link: 'test.com'}, {id:2, link: 'test.com'}]}
                 keyExtractor={(item) => String(item.id)}
                 renderItem={({item}) => <ListItem data={item} />}
-                contentContainerStyle={{ paddindBottom: 20}}
+                contentContainerStyle={{ paddindBottom: 22}}
                 showsVerticalScrollIndicator={false}
             />
         </Container>
